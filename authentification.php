@@ -23,11 +23,11 @@ if(isset($_POST["submit1"]))
     
     if (pwd_valide($pwd) != true)
     {
-        echo "Mot de passe non valide!<br>";	
+        echo "Format du mot de passe non valide!<br>";	
     }
     else 
     {
-        echo "Mot de passe valide!<br>"; 
+        echo "Format du mot de passe valide<br>"; 
     }
 
     
@@ -43,10 +43,10 @@ if(isset($_POST["submit1"]))
 }  
   if (email_valide($email) != true)
 {
-	echo "Email  non valide<br>";	
+	echo "Format email  non valide!<br>";	
 }
 else 
-	echo "Email valide <br>"; 
+	echo "Format email valide <br>"; 
 
 
 
